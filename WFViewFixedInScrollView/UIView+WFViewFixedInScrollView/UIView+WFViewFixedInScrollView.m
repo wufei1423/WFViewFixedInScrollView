@@ -131,7 +131,7 @@ static NSString * const WFContentOffset = @"contentOffset";
     [self addObserver];
 }
 
-- (void)removeFromScrollViewInFixPosition
+- (void)removeFromScrollViewInFixedPosition
 {
     [self removeObserver];
     [self removeFromSuperview];

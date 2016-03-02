@@ -10,10 +10,10 @@
 
 @interface UIView (WFViewFixedInScrollView)
 
-/** add view to scrollview in fixed position, frame will translate to auto layout */
+/** add view to scrollView in fixed position, frame will be translated to auto layout */
 - (void)fixInScrollView:(UIScrollView *)scrollView withFrame:(CGRect)frame atIndex:(NSInteger)index;
 
 /** must use this func to remove from superview */
-- (void)removeFromScrollViewInFixPosition;
+- (void)removeFromScrollViewInFixedPosition;
 
 @end

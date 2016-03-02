@@ -18,10 +18,10 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+
     self.scrollView.contentSize = CGSizeMake(1000, 1000);
     
     UIView *redView = [[UIView alloc] init];
@@ -30,14 +30,9 @@
     self.redView = redView;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [self.redView removeFromScrollViewInFixPosition];
+    [self.redView removeFromScrollViewInFixedPosition];
 }
 
 @end
