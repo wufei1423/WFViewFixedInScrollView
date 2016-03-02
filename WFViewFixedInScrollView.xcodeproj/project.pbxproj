@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2A78581C86C38000402EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2A78571C86C38000402EC3 /* main.m */; };
+		EF2A785B1C86C38000402EC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2A785A1C86C38000402EC3 /* AppDelegate.m */; };
+		EF2A785E1C86C38000402EC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2A785D1C86C38000402EC3 /* ViewController.m */; };
+		EF2A78611C86C38000402EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2A785F1C86C38000402EC3 /* Main.storyboard */; };
+		EF2A78631C86C38000402EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2A78621C86C38000402EC3 /* Assets.xcassets */; };
+		EF2A78661C86C38000402EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2A78641C86C38000402EC3 /* LaunchScreen.storyboard */; };
+		EF2A78701C86C3FF00402EC3 /* UIView+WFViewFixedInScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2A786F1C86C3FF00402EC3 /* UIView+WFViewFixedInScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF2A78531C86C38000402EC3 /* WFViewFixedInScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFViewFixedInScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2A78571C86C38000402EC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF2A78591C86C38000402EC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF2A785A1C86C38000402EC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF2A785C1C86C38000402EC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF2A785D1C86C38000402EC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF2A78601C86C38000402EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF2A78621C86C38000402EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2A78651C86C38000402EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF2A78671C86C38000402EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2A786E1C86C3FF00402EC3 /* UIView+WFViewFixedInScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WFViewFixedInScrollView.h"; sourceTree = "<group>"; };
+		EF2A786F1C86C3FF00402EC3 /* UIView+WFViewFixedInScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WFViewFixedInScrollView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2A78501C86C38000402EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2A784A1C86C38000402EC3 = {
+			isa = PBXGroup;
+			children = (
+				EF2A78551C86C38000402EC3 /* WFViewFixedInScrollView */,
+				EF2A78541C86C38000402EC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2A78541C86C38000402EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2A78531C86C38000402EC3 /* WFViewFixedInScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2A78551C86C38000402EC3 /* WFViewFixedInScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EF2A786D1C86C3AC00402EC3 /* UIView+WFViewFixedInScrollView */,
+				EF2A78591C86C38000402EC3 /* AppDelegate.h */,
+				EF2A785A1C86C38000402EC3 /* AppDelegate.m */,
+				EF2A785C1C86C38000402EC3 /* ViewController.h */,
+				EF2A785D1C86C38000402EC3 /* ViewController.m */,
+				EF2A785F1C86C38000402EC3 /* Main.storyboard */,
+				EF2A78621C86C38000402EC3 /* Assets.xcassets */,
+				EF2A78641C86C38000402EC3 /* LaunchScreen.storyboard */,
+				EF2A78671C86C38000402EC3 /* Info.plist */,
+				EF2A78561C86C38000402EC3 /* Supporting Files */,
+			);
+			path = WFViewFixedInScrollView;
+			sourceTree = "<group>";
+		};
+		EF2A78561C86C38000402EC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF2A78571C86C38000402EC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF2A786D1C86C3AC00402EC3 /* UIView+WFViewFixedInScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EF2A786E1C86C3FF00402EC3 /* UIView+WFViewFixedInScrollView.h */,
+				EF2A786F1C86C3FF00402EC3 /* UIView+WFViewFixedInScrollView.m */,
+			);
+			path = "UIView+WFViewFixedInScrollView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2A78521C86C38000402EC3 /* WFViewFixedInScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2A786A1C86C38000402EC3 /* Build configuration list for PBXNativeTarget "WFViewFixedInScrollView" */;
+			buildPhases = (
+				EF2A784F1C86C38000402EC3 /* Sources */,
+				EF2A78501C86C38000402EC3 /* Frameworks */,
+				EF2A78511C86C38000402EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFViewFixedInScrollView;
+			productName = WFViewFixedInScrollView;
+			productReference = EF2A78531C86C38000402EC3 /* WFViewFixedInScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2A784B1C86C38000402EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zzu;
+				TargetAttributes = {
+					EF2A78521C86C38000402EC3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KSPXGLPPQS;
+					};
+				};
+			};
+			buildConfigurationList = EF2A784E1C86C38000402EC3 /* Build configuration list for PBXProject "WFViewFixedInScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2A784A1C86C38000402EC3;
+			productRefGroup = EF2A78541C86C38000402EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2A78521C86C38000402EC3 /* WFViewFixedInScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2A78511C86C38000402EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2A78661C86C38000402EC3 /* LaunchScreen.storyboard in Resources */,
+				EF2A78631C86C38000402EC3 /* Assets.xcassets in Resources */,
+				EF2A78611C86C38000402EC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2A784F1C86C38000402EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2A78701C86C3FF00402EC3 /* UIView+WFViewFixedInScrollView.m in Sources */,
+				EF2A785E1C86C38000402EC3 /* ViewController.m in Sources */,
+				EF2A785B1C86C38000402EC3 /* AppDelegate.m in Sources */,
+				EF2A78581C86C38000402EC3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF2A785F1C86C38000402EC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2A78601C86C38000402EC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF2A78641C86C38000402EC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2A78651C86C38000402EC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2A78681C86C38000402EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF2A78691C86C38000402EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2A786B1C86C38000402EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WFViewFixedInScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zzu.WFViewFixedInScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF2A786C1C86C38000402EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WFViewFixedInScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zzu.WFViewFixedInScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2A784E1C86C38000402EC3 /* Build configuration list for PBXProject "WFViewFixedInScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2A78681C86C38000402EC3 /* Debug */,
+				EF2A78691C86C38000402EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2A786A1C86C38000402EC3 /* Build configuration list for PBXNativeTarget "WFViewFixedInScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2A786B1C86C38000402EC3 /* Debug */,
+				EF2A786C1C86C38000402EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2A784B1C86C38000402EC3 /* Project object */;
+}
